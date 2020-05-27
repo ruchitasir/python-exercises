@@ -9,3 +9,20 @@
 #
 # > 120
 #
+
+def factorial(number):
+        if number == 1:
+            var = 1 
+        elif number == 0:
+            var = 0
+        else:       
+            for i in range (2,number):
+                var = i*number
+    
+        return var
+
+
+fact = factorial(5)
+
+print("factorial",fact)       
+

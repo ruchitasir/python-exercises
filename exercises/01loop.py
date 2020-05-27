@@ -13,3 +13,9 @@
 # > Hello there
 # > Hello there
 # > Hello there
+
+def p_times(statement,num):
+    for i in range(1,num):
+        print(f"Statement {statement} is repeated {i} time")
+
+p_times("Hello world",5)        

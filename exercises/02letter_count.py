@@ -31,3 +31,11 @@
 # letter_count('banana')
 #
 # > {'a': 3, 'b': 1, 'n': 3}
+
+
+
+
+   
+   
+
+#letter_count("banana")
